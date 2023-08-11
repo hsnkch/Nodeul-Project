@@ -12,10 +12,9 @@
 - `2023-05-09` ~ `2023-06-20`
 
 #### 프로젝트 배포
-- 배포 환경
-  - Spring boot Project / MariaDB [cloudtype([https://cloudtype.io](https://cloudtype.io/))]
-  - Linux (Ubuntu 22.04.2 LTS)
-- 북키타카 임시 홈페이지 ([https://www.bookitaka.store](https://www.bookitaka.store))
+- 배포 환경 (인프라)
+  - AWS EC2 : Linux (Ubuntu 22.04.2 LTS) / MySQL
+- 북키타카 임시 홈페이지 ([https://bookitaka.store](https://bookitaka.store))
 
 <br><br>
 
@@ -146,11 +145,5 @@ JWT 구현 방식은 오픈소스([https://github.com/murraco/spring-boot-jwt](h
 
 ### 💡 관리자 페이지
 회원관리/ 받은 출제요청 보기 / 활동지 등록 / 이용안내 등록 / 공지사항 등록 / 자주묻는질문 등록이 가능합니다.
-
-<br><br>
-
-## 업데이트 기록
-- 23.06.29 : 발송 메일 홈페이지 링크 수정 / favicon 추가
-- 23.06.28 : 배포 상황에 알맞게 수정
 
 <br><br>
